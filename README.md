@@ -1,6 +1,6 @@
-# Energy_projects
+# Electric vehicle charging analysis
 
-## `ev_charger_analysis` - Overview
+## Overview
 
 The `ev_charger_analysis` module is designed to decode raw data from Electric Vehicle (EV) chargers and transform it into a more structured format for analysis. This module provides functionality to decode raw data stored in text (txt) or comma-separated values (csv) format and digest it into Pandas DataFrames.
 
@@ -13,7 +13,7 @@ The module has the following folder structure:
 - **digestor/**: Contains code related to digesting dictionaries into DataFrames.
   - `digestor.py`: Implements the functionality to digest dictionaries into Pandas DataFrames with augmented data for human readability.
 
-### Usage
+## Usage
 
 To use this module, follow these steps:
 
@@ -23,7 +23,7 @@ To use this module, follow these steps:
    pip install ev_charger_analysis
    ```
 
-### Example
+## Example
   ```
   from ev_charger_analysis.decoder import decode_raw_data
   from ev_charger_analysis.digestor import digest_data_to_dataframe
